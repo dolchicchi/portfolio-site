@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>オリアプ（オリジナルアプリ）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Morotomi Takuma</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>My_list(献立計画の補助サービス)</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/work/02/My_list-pc.jpeg" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/work/02/My_list-sp.jpeg" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / Docker / AWS EC2 / CircleCI / Mysql / GitHub / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/dolchicchi/my_list" target="_blank">https://github.com/dolchicchi/my_list</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>約250時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="http://13.231.2.50/" target="_blank">http://13.231.2.50/</a></td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>1@1</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>111111</td>
+                </tr>
+              </table>
+              <br><p>※ゲストログインボタンにてテスト用アカウントでのログインが可能です</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、献立計画を手助けするWebアプリケーションを開発しました。
+                <br>
+                主な機能は、レシピの登録機能、登録済みのレシピからランダムで献立登録、任意のレシピを献立登録、お買い物リストの表示機能です。
+              </p>
+              <p>
+                献立計画の登録、気分に合わせた献立のランダム登録機能で献立の決定をサポートします。
+              </p>
+              <p>
+                家族間でアカウント共有すれば献立の予定を共有することやリクエストするような使い方もできます。
+              </p>
+              <p>
+                また、レシピ登録時に食材を合わせて登録しておけば登録済みの献立に必要な食材の買い物リストを表示します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  献立を決める事に苦労している姿を身近で見ていました。
+                </p>
+                <p>
+                  少しでも負担の軽減ができればいいなと思い、ランダムで献立を決めてくれるサービスを開発しました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/CircleCI.png">
+                </div>
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目はCircleCIでのCI/CDパイプライン構築や開発環境にDockerの導入などカリキュラムにはなかった技術を独学で取り入れる事で、他の卒業生と差別化を図ろうと試みた点です。
+                  </p>
+                  <p>
+                    2つ目がなるべく制限を減らすように心がけました。<br>
+                    具体的には、<br>
+                    　・食材の登録時に全角数字で送信されても半角数字に変換する処理<br>
+                    　・食材の登録を1回のフォーム送信で複数のレコードに登録できる処理<br>
+                    　・レシピのフォルダ登録をチェックボックスで1回の送信でまとめて登録できる機能<br>
+                    などなるべく操作回数が減るように心掛けました。
+                  </p>
+                  <p>
+                    3つ目は実際に利用してもらいフィードバックを受けながら開発を進めた点です。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/furima-pc.jpeg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/My_list-pc.jpeg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3>My_list（献立計画の補助サービス）</h3>
+                  <!-- 記載番号：18 -->
+                  <p>Ruby / Ruby on Rails / Docker / AWS EC2 / CircleCI / Mysql / GitHub / Visual Studio Codelo</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Morotomi Takuma.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
